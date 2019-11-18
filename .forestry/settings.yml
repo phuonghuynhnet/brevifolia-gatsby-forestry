@@ -35,7 +35,7 @@ build:
   - HUGO_VERSION=v0.59.1
   preview_output_directory: public
   install_dependencies_command: yarn install
-  preview_docker_image: forestryio/hugo:latest
+  preview_docker_image: forestryio/hugo:node10
   mount_path: "/srv"
   working_dir: "/srv/public"
   instant_preview_command: yarn forestry-preview
